@@ -1,0 +1,16 @@
+HW 3 - Man Tik Li
+
+## Introduction
+The webpage implements basic client-server communication via node.js. The user input a seed value and chooses a caluation method, then sends the request to a local server to calculate. The local server is set to listen to port 8080. The server respond the result to to the hotsed webpage.
+
+## Requirements
+*Node.js
+*jQuery
+
+The necessary files to run this webpage are as follows:
+*client.js
+*ml3546_HW3.html
+*server.js
+
+## Using the Webpage
+Using a command line, such as a Command Prompt or terminal, go to the directory that containing those files and run the command "node server.js" without quotes. Upon successful server setup, "Node server is running..." will be printed to the command line. Next, open up a web browser and type in the URL field "localhost:8080". The server will direct you to the main page, where you can enter your seed (positive integer) and calculation method. Click "Submit" to send the input to the server and it will return the appropriate calculation. If bad input is supplied or the server cannot be reached, an appropriate warning is displayed. To shut the server down, in the command line with Ctrl+C or kill the process via a task manager.

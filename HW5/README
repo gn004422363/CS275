@@ -1,0 +1,9 @@
+To run the application, opem terminal/command line. 
+Change the directory to the directory that contains the HTML and JS files.
+Type "node Server.js" to run the server. To access the HTML page, tpye "http://localhost:8080/index.html" OR "http://localhost:8080" into the browser URL bar.
+Click the "Menu" button in the top left corner to access content.
+There are four buttons in the menu: "Home," "Display," "Search," and "Close Menu."
+The "Home" button will return to the home page.
+The "Display" button will display a drop-down box that lists the tables you can select to display.
+The "Search" button will display the drop-down box that lists the students, along with a drop-down box that lists term/year to display from.
+The "Close Menu" button will close the menu. 
